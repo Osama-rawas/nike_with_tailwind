@@ -12,7 +12,7 @@ export default function Footer() {
           </a>
           <p className="sm:max-w-sm mt-6 text-base leading-7 font-montserrat text-white-400">
             {" "}
-            Get shoes ready for the new term at your nearest Nike store. Find
+            test
             Your perfect Size In Store. Get Rewards
           </p>
           <div className="flex  items-center gap-5 mt-8">
@@ -20,7 +20,7 @@ export default function Footer() {
               <div className="bg-white flex justify-center items-center w-12 h-12 rounded-full">
                 <img src={icon.src} alt={icon.alt} width={24} height={24} />
               </div>
-            ))}
+                    ))}
           </div>
         </div>
         <div className="flex justify-between flex-1 lg:gap-10 gap-20 flex-wrap">
@@ -31,16 +31,16 @@ export default function Footer() {
               </h4>
               <ul>
                 {section.links.map((link) => (
-                  <li
-                    key={link.name}
-                    className="mt-3 text-white-400 font-montserrat  text-base leading-normal hover:text-coral-red cursor-pointer"
-                  >
-                    <a>{link.name}</a>
-                  </li>
-                ))}
+                          <li
+                            key={link.name}
+                            className="mt-3 text-white-400 font-montserrat  text-base leading-normal hover:text-coral-red cursor-pointer"
+                            >
+                            <a>{link.name}</a>
+                          </li>
+                              ))}
               </ul>
             </div>
-          ))}
+                ))}
         </div>
       </div>
 
@@ -52,11 +52,11 @@ export default function Footer() {
             width={20}
             height={20}
             className="rounded-full m-0"
-          />
+            />
           <p className="">Copyright. All rights reserved.</p>
         </div>
         <p className="font-montserrat cursor-pointer ">Terms & Conditions</p>
       </div>
     </footer>
-  );
+    );
 }
